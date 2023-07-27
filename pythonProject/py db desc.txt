@@ -1,0 +1,8 @@
+create database hoteldb;
+use hoteldb;
+
+create table hotel(ID integer auto_increment primary key,Name varchar(25),Address varchar(50),Age int,Indate varchar(15),Outdate varchar(15),RoomNumber int);
+
+insert into hotel(name,address,age,indate,outdate,roomnumber) values('sowmiya','perundurai',19,'2/3/2023','3/3/2023',125);
+
+select * from hotel;

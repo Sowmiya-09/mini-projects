@@ -1,0 +1,1 @@
+The available rooms are: * 123  * 234  * 345 * 567 * 456
